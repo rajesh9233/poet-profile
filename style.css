@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.page-content {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.home{
+    height: 75%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-size: 4rem;
+    font-weight: 600;
+}
+.sub-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.about {
+    margin: 50px 0;
+    padding: 20px 40px;
+}
+.poet-img {
+    height: 500px;
+    object-fit: contain;
+    width: 100%;
+    max-width: 100%;
+}
+.btn-section {
+    margin: 30px 10px;   
+}
+.btn-section a {
+    min-width: 150px;
+    margin: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.btn-icon {
+    vertical-align: middle;
+    margin: 0 5px;
+}
+.quotes {
+    height: 100px;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.awards {
+    margin: 30px 0;
+    margin: 50px 0;
+    padding: 20px 40px;
+}
+.award-header h2, .award-header h4 {
+    width: 100%; 
+    text-align: center; 
+    margin: 30px 20px; 
+}
+.awards-list {
+    padding: 30px 50px;
+}
+.award-card {
+    height: 120px;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+.award-card h6 {
+    font-size: 1.2rem;
+}
+.award-card h6, .award-card p {
+    margin: 0;
+}
+.poetry-poems {
+    margin: 10px 30px;
+}
+.poetry-poems ul{
+    margin: 0;
+    padding: 0;
+}
+.footer {
+    height: 150px;
+    color: #ffffff;
+    padding: 30px 10px;
+}
